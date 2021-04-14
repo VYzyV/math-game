@@ -1,0 +1,20 @@
+import random
+guestchances=10
+computer=random.randint(1,100)
+for i in range(guestchances)
+   try:
+      number=int(input())
+   except:
+      print("wrong number INPUT 1 between 100")
+   else:
+      if(number>100 or number<1)
+         print("beyond the range")
+      elif(number>computer)
+         print("bigger")
+      elif(number<computer)
+         print("smaller")
+      elif(number==computer)
+         print("winner")
+         break
+   else:
+      print("loser,right answer=%s%computer)
